@@ -16,7 +16,6 @@ cookbook "windows"
 cookbook "yum"
 cookbook "yum-epel"
 
-cookbook 'aws-elastic-ops', git: 'git://github.com/amazonwebservices/opsworks-elasticsearch-cookbook.git'
 cookbook 'elasticsearch', git: 'git://github.com/elasticsearch/cookbook-elasticsearch.git'
 
 
