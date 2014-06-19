@@ -1,0 +1,24 @@
+source "https://api.berkshelf.com"
+
+metadata
+
+cookbook "apt"
+cookbook "ark"
+cookbook "bluepill"
+cookbook "build-essential"
+cookbook "java"
+cookbook "monit"
+cookbook "nginx"
+cookbook "ohai"
+cookbook "python"
+cookbook "rsyslog"
+cookbook "windows"
+cookbook "yum"
+cookbook "yum-epel"
+
+cookbook 'aws-elastic-ops', git: 'git://github.com/amazonwebservices/opsworks-elasticsearch-cookbook.git'
+cookbook 'elasticsearch', git: 'git://github.com/elasticsearch/cookbook-elasticsearch.git'
+
+
+
+
